@@ -1,17 +1,20 @@
 <template>
   <div>
     <options-api />
+    <composition-api />
+    <component-a />
+    <component-b />
+    <!-- <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link> -->
   </div>
+  <!-- <router-view /> -->
 </template>
 
-<script>
+<script setup>
 import OptionsApi from './components/OptionsApi.vue';
-export default {
-  name: 'App',
-  components: {
-    OptionsApi
-  }
-}
+import CompositionApi from './components/CompositionApi.vue';
+import ComponentA from './components/ComponentA';
+import ComponentB from './components/ComponentB';
 </script>
 
 <style>

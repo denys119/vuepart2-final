@@ -7,7 +7,7 @@
       Number from data state: {{ number }}
     </p>
     <p>
-      Number from data state: {{ message }}
+      Message from data state: {{ message }}
     </p>
     <p>
       Disabled button:
